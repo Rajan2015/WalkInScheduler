@@ -4,10 +4,11 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
-
+import { AdminDashboardComponent } from './admin/dashboard/admindashboard.component';
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    AdminDashboardComponent
   ],
   imports: [
     BrowserModule,
