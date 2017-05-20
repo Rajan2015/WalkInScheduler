@@ -1,0 +1,73 @@
+.print-wrapper {
+  width: 612px;
+  padding: 20px;
+  background: #fff;
+  font-family: 'Arial';
+  line-height: 16px;
+  font-size: 12px;
+}
+.print-wrapper .header-print:after {
+  content: "";
+  border-bottom: #000 solid 1px;
+  position: absolute;
+  width: 612px;
+  margin: 0;
+}
+.print-wrapper .header-print {
+  width: 100%;
+  font-size: 11px;
+  margin-bottom: 20px;
+}
+.print-wrapper .header-print th {
+  font-weight: normal;
+}
+.print-wrapper .header-print .draft {
+  font-size: 15px;
+}
+.print-wrapper .body-print {
+  padding: 0;
+}
+.print-wrapper .body-print table {
+  width: 100%;
+  border: #000 solid 1px;
+  border-collapse: collapse;
+}
+.print-wrapper .body-print table ul {
+  padding: 0;
+  margin: 0;
+}
+.print-wrapper .body-print table ul li {
+  list-style: none;
+  float: left;
+  padding: 0 10px;
+  word-break: break-word;
+}
+.print-wrapper .body-print table tr {
+  border: #000 solid 1px;
+}
+.print-wrapper .body-print table tr td {
+  padding: 10px 0;
+  border-bottom: #000 solid 1px;
+  font-size: 12px;
+}
+.print-wrapper h4 {
+  font-size: 12px;
+  padding: 10px 0;
+  margin: 0;
+  font-weight: bold;
+}
+.print-wrapper .footer-print table {
+  width: 100%;
+}
+.print-wrapper .footer-print table .underline {
+  text-decoration: underline;
+}
+.print-wrapper .footer-print td {
+  padding: 10px;
+  border: #000 solid 1px;
+}
+.print-wrapper .footer-print td p {
+  padding: 0 0 5px 0;
+  margin: 0;
+  font-size: 12px;
+}
